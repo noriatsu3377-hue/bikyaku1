@@ -59,6 +59,9 @@ img{max-width:100%;display:block;border-radius:16px}
 .instructor .name{margin:6px 0 10px;font-size:20px}
 .instructor-photo img{aspect-ratio:3/4;object-fit:cover}
 
+.schedule-media{display:grid;gap:12px}
+.schedule-media img{aspect-ratio:16/9;object-fit:cover}
+
 .quotes{display:grid;gap:14px}
 blockquote{margin:0;background:var(--card);border:1px solid #262632;border-radius:16px;padding:18px}
 blockquote p{margin:0 0 8px}
@@ -95,6 +98,7 @@ blockquote cite{color:var(--muted);font-style:normal}
   .nav{display:flex}
   .cta-small{display:inline-flex}
   .hero{padding:72px 0}
+  .hero h1{white-space:nowrap}
   .hero-grid{grid-template-columns:1.1fr .9fr;gap:36px}
   .cards{grid-template-columns:repeat(3,1fr)}
   .two-col{grid-template-columns:1fr 1fr;gap:28px}
