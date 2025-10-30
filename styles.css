@@ -40,6 +40,7 @@ img{max-width:100%;display:block;border-radius:16px}
 .trust-badges{display:flex;gap:10px;flex-wrap:wrap;padding:0;margin:18px 0 0;list-style:none}
 .trust-badges li{background:#17171e;border:1px solid #242430;padding:8px 12px;border-radius:999px;color:var(--muted);font-size:14px}
 .hero-visual img{height:auto}
+ .hero-visual video{width:100%;height:auto;display:block;border-radius:16px}
 
 .cards{display:grid;grid-template-columns:1fr;gap:16px}
 .card{background:var(--card);border:1px solid #262632;border-radius:16px;padding:18px}
